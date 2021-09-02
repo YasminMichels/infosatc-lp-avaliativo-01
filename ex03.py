@@ -1,0 +1,6 @@
+largura = int(input("Digite a largura da parede: "))
+altura = int(input("Digite a altura da parede: "))
+area = (largura * altura)
+latas = (area / 3.6)
+latapreco = (latas * 170.00)
+print("Para pintar essa parede, precisará de:", latas,"latas e o preço será de:", latapreco," reais.")
